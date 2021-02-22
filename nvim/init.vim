@@ -19,6 +19,7 @@ filetype off                   " required!
 
 set nu
 let mapleader=","
+colorscheme default
 
 call plug#begin('~/.vim/plugged')
 "
