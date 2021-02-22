@@ -18,6 +18,7 @@ set autoread
 filetype off                   " required!
 
 set nu
+let mapleader=","
 
 call plug#begin('~/.vim/plugged')
 "
