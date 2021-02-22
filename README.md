@@ -4,7 +4,7 @@ dotfiles
 Installation
 ------------
 ```
-bash <(curl -s https://raw.githubusercontent.com/dbalatero/dotfiles/master/bootstrap)
+Clone into .dotfiles
 
 cd ~/.dotfiles
 ./setup
