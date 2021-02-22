@@ -120,13 +120,9 @@ dotheader "Setting up Neovim..."
 
 install_lua_language_server
 install_bash_language_server
-install_ruby_neovim
-install_neovim
 setup_neovim_config
 install_tern
 install_vim_node_rpc
 ensure_plugin_directory
 install_neovim_plugins
-install_rust
-install_proximity_sort
 install_bat

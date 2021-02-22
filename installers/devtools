@@ -9,7 +9,7 @@ dotheader "Setting up devtools..."
 brew_cask_install chromedriver
 apt_install chromium-chromedriver
 
-brew_cask_install alacritty
+# brew_cask_install alacritty
 
 brew_install fd
 
@@ -34,4 +34,4 @@ brew_install heroku
 brew_install hub
 brew_install redis
 
-heroku plugins:install heroku-repo
+# heroku plugins:install heroku-repo

@@ -2,22 +2,16 @@
 
 source "${BASH_SOURCE%/*}/shared.sh"
 
-if is_macos; then
-  if test ! $(which brew); then
-    echo "Installing homebrew"
+if test ! $(which brew); then
+  echo "Installing homebrew"
 
-    ruby -e "$(curl -fsSL \
-      https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  ruby -e "$(curl -fsSL \
+    https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-    brew update
-  fi
-
-  dotheader "Setting up Homebrew..."
-elif is_linux; then
-  dotheader "Setting up Aptitude..."
-
-  apt_install aptitude
+  brew update
 fi
+
+dotheader "Setting up Homebrew..."
 
 # Apt build
 
