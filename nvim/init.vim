@@ -19,6 +19,7 @@ filetype off                   " required!
 
 set nu
 let mapleader=","
+set foldlevel=99
 colorscheme default
 
 call plug#begin('~/.vim/plugged')
@@ -120,7 +121,6 @@ let g:ale_javascript_eslint_use_global = 1
 let g:ale_linters = {
 \ 'javascript': ['eslint'],
 \ 'javascript.jsx': ['eslint'],
-\ 'ruby': ['rubocop'],
 \ 'typescript': ['eslint'],
 \ 'typescript.tsx': ['eslint'],
 \}
@@ -128,7 +128,6 @@ let g:ale_linters = {
 let g:ale_fixers = {
 \ 'javascript': ['eslint'],
 \ 'javascript.jsx': ['eslint'],
-\ 'ruby': ['rubocop'],
 \ 'typescript': ['eslint'],
 \ 'typescript.tsx': ['eslint'],
 \}
