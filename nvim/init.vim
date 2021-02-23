@@ -16,10 +16,10 @@
 set nocompatible               " be iMproved
 set autoread
 filetype off                   " required!
+set mouse=a
 
 set nu
 let mapleader=","
-set foldlevel=99
 colorscheme default
 
 call plug#begin('~/.vim/plugged')
