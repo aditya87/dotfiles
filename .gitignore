@@ -15,3 +15,5 @@ tags
 tmux-client*
 hammerspoon/Vim2
 .envrc
+tmuxinator/pay-server.yml
+tmux/plugins/base16-tmux/tmuxcolors-dbalatero-base16.conf
